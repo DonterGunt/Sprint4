@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProductForm">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:textSize="55dp"
+        android:text="Nuevo servicio" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editNameProductForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editDescriptionProductForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Descripcion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editPriceProductForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Precio"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/subirImagen"
+            android:layout_below="@+id/btn_subir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btn_subir"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Subir Imagen"
+            app:cornerRadius="20dp"/>
+
+        <Button
+            android:id="@+id/btnProductForm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#050505"
+            android:gravity="center"
+            android:text="REGISTRAR"
+            android:textStyle="italic"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="volver"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textStyle="italic"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/black" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+
+    //String MainActivity
+    <string name="text_name">Nombre</string>
+    <string name="text_last_name">Apellido</string>
+    <string name="text_title_main_activity">Bienvenido</string>
+    <string name="text_registarme">Registrarme</string>
+    <string name="text_iniciar">Iniciar sesión</string>
+
+
+    //String MainActivity2
+    <string name="text_btn_volver">VOLVER</string>
+    <string name="text_btn_salir">SALIR</string>
+    <string name="text_title_main_activity2">Pagina 2</string>
+
+    //iNICIAR SECCION
+    <string name="text_Usuario">Usuario</string>
+    <string name="text_Contrasena">Contraseña</string>
+    <string name="text_Ingresar">Ingresar</string>
+    <string name="text_Volver">Volver</string>
+    //Registrarme
+    <string name="text_Registro">Registro Usuario</string>
+    <string name="text_Nombre">Nombre</string>
+    <string name="text_Correo">Correo</string>
+    <string name="text_Celular">Celular</string>
+    <string name="text_Contraseña">Contraseña</string>
+    <string name="text_continuar">Continuar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
